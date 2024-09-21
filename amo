@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int day=1;
+    float amount=1.00;
+    while(day<=90){
+        printf("day %d  amount is %.2f rupees\n",day,amount);
+        amount*=2;
+        day++;
+    }
+}
