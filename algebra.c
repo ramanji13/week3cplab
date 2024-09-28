@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 int main() {
-   int a,b,c,d,e,f,g,h;
+   int a,b,c,d,e,f,g;
+   float h;
+   
    printf("enter the value of a\n");
    scanf("%d",&a);
    printf("enter the value of b\n");
@@ -23,7 +25,7 @@ int main() {
    printf("\nthe value of h is %.2f\n",h);
    
    h=(a++)+(++a);
- printf("\nthe value of h is %d\n",h);
+ printf("\nthe value of h is %f\n",h);
 
 
   
